@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Next.js 15's app directory where a server component attempts to access browser-specific APIs, leading to runtime errors. The `serverComponentBug.js` file shows the problematic code, while `serverComponentSolution.js` provides the corrected implementation using client components for browser-specific logic.
